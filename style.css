@@ -1,0 +1,63 @@
+body{
+    background-image: url(Background-Jornal.jpg);
+}
+.fundo {
+    width: 80%;
+    border: solid   3px green;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+
+}.fundo .container{
+    height: 625px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.fundo .container .perguntas{
+    border: solid 3px green;
+    height: 625px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.fundo .container .perguntas span{
+    font-size: 15px;
+    display: flex;
+    align-items: column;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.fundo .container .jogo{
+    border: solid 3px blue;
+    height: 625px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.jogo .container{
+    border: solid 3px blue;
+    height: 505px;
+    width: 650px;
+    background-image: url(fundo\ quadriculado.jpg);
+
+}
+.jogo .container .containerinputs{
+    width: 438px;
+    height: 500px;
+    border:solid 3px black
+}
+.jogo .container .containerinputs .input{
+    width: 18px;
+    height: 18px;
+    border-radius: 5%;
+    border: none;
+}
+.jogo .container .containerinputs .habilitado{
+    width: 14px;
+    height: 14px;
+    border-radius: 5%;
+}
