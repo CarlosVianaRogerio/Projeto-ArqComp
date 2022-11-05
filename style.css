@@ -37,17 +37,18 @@ body{
     justify-content: center;
     align-items: center;
     display: grid;
+    background-image: url(fundo\ quadriculado.jpg);
 }
 .jogo .container{
+    display: flex;
     border: solid 3px blue;
-    height: 505px;
+    height: 445px;
     width: 650px;
     background-image: url(fundo\ quadriculado.jpg);
-
 }
 .jogo .container .containerinputs{
     width: 438px;
-    height: 500px;
+    height: 440px;
     border:solid 3px black
 }
 .jogo .container .containerinputs .input{
@@ -61,3 +62,12 @@ body{
     height: 14px;
     border-radius: 5%;
 }
+
+.container .jogo .containerinputs {
+    background-color: black;
+}
+
+.jogo .container .containerinputs .input {
+    background-color: black;
+}
+
