@@ -45,8 +45,8 @@ function teste() {
         i:i_registradores.value,
         s:s_registradores.value,
         t:t_registradores.value,
-        r:r_registradores_flash.value,
-        a:a_registradores.value,
+        r:r_registradores_threads.value,
+        a:a_registradores_flash.value,
         d:d_registradores.value,
         o:o_registradores.value,
         r:r_registradores_threads.value,
@@ -116,7 +116,7 @@ function teste() {
     var addressbus= {
         a:a_addressbus_memoriaMassa.value,
         d:d_addressbus.value,
-        d:d_addresbus_dualcore.value,
+        d:d_addressbus_dualcore.value,
         r:r_addressbus.value,
         e:e_addressbus.value,
         s:s_addressbus.value,
@@ -128,7 +128,7 @@ function teste() {
 
     }
     var dualcore ={
-        d:d_addresbus_dualcore.value,
+        d:d_addressbus_dualcore.value,
         u:u_dualcore.value,
         a:a_dualcore.value,
         l:l_dualcore.value,
@@ -143,9 +143,13 @@ function teste() {
         a:a_cache.value,
         c:c_cache.value,
         h:h_cache.value,
-        e:e_cache.value,
+        e: e_cache.value,
 
     }
 
-
+    if (flash.f == '' && flash.l == '' && flash.a == '' && flash.s == '' && flash.h == '') {
+        
+    } else {
+        alert(`Deu certo`)
+    }
 }
