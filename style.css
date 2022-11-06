@@ -1,36 +1,69 @@
+
+/* @font-face {
+    font-family:Times New Roman;
+    src: url('https://fonts.googleapis.com/css?family=Titillium+Web');
+}
+
 body{
     background-image: url(Background-Jornal.jpg);
 }
+
+h1{
+    font-family: Times New Roman;
+} */
+
+
 .fundo {
-    width: 80%;
-    border: solid   3px green;
+    width: 90%;
+    /* border: solid   3px green; */
     margin:auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
 
-}.fundo .container{
-    height: 625px;
-    width: 1100px;
+.fundo .container{
+    height: 800px;
+    width: 1300px;
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
+
 .fundo .container .perguntas{
-    border: solid 3px green;
-    height: 625px;
+    /* border: solid 3px green; */
+    height: 800px;
     width: 300px;
     display: flex;
     flex-direction: column;
 }
+
 .fundo .container .perguntas span{
     font-size: 15px;
     display: flex;
-    align-items: column;
+    /* align-items: column; */
     padding-top: 20px;
     padding-left: 10px;
 }
+
+.fundo .container .pergunstas2{
+    /* border: solid 3px green; */
+    height: 800px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo .container .pergunstas2 span{
+    font-size: 15px;
+    display: flex;
+    /* align-items: column; */
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
 .fundo .container .jogo{
-    border: solid 3px blue;
+    /* border: solid 3px blue; */
     height: 625px;
     width: 800px;
     display: flex;
@@ -39,24 +72,31 @@ body{
     display: grid;
     background-image: url(fundo\ quadriculado.jpg);
 }
+
+    /* jogo */
+
 .jogo .container{
     display: flex;
-    border: solid 3px blue;
+    /* border: solid 3px blue; */
     height: 445px;
     width: 650px;
     background-image: url(fundo\ quadriculado.jpg);
+   background-size: auto;
 }
+
 .jogo .container .containerinputs{
     width: 438px;
     height: 440px;
     border:solid 3px black
 }
+
 .jogo .container .containerinputs .input{
     width: 18px;
     height: 18px;
     border-radius: 5%;
     border: none;
 }
+
 .jogo .container .containerinputs .habilitado{
     width: 14px;
     height: 14px;
@@ -71,3 +111,18 @@ body{
     background-color: black;
 }
 
+/* botão */
+
+.fundo .container .jogo button{
+    border-color: gray;
+    background-color: black;
+    color: white;
+    border-radius: 5vh;
+
+}
+
+/* FotoGit */
+
+/* .criadores img{
+    width: 10px;
+} */
