@@ -44,7 +44,45 @@ h1{
     /* align-items: column; */
     padding-top: 20px;
     padding-left: 10px;
+    font-weight: bolder;
 }
+
+/* Observação */
+.fundo .container .perguntas .obs{
+    font-size: 15px;
+    display: flex;
+    /* align-items: column; */
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+
+/* Certo */
+.fundo .container .perguntas .verde{
+    font-size: 15px;
+    display: flex;
+    /* align-items: column; */
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: bolder;
+    background-color: black;
+    color: rgb(41, 148, 8);
+}
+
+/* Errado */
+.fundo .container .perguntas .vermelho{
+    font-size: 15px;
+    display: flex;
+    /* align-items: column; */
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: bolder;
+    background-color: black;
+    color: red;
+}
+
 
 .fundo .container .pergunstas2{
     /* border: solid 3px green; */
@@ -60,6 +98,7 @@ h1{
     /* align-items: column; */
     padding-top: 20px;
     padding-left: 10px;
+    font-weight: bolder;
 }
 
 .fundo .container .jogo{

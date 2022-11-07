@@ -148,72 +148,152 @@ function teste() {
     }
 
     if (flash.f == 'f' && flash.l == 'l' && flash.a == 'a' && flash.s == 's' && flash.h == 'h' && threads.t == 't' && threads.h == 'h' && threads.r == 'r' && threads.e == 'e' && threads.a == 'a' && threads.d == 'd' && threads.s == 's' && dma.d == 'd' && dma.m == 'm' && dma.a == 'a' && memoriaMassa.m == 'm' && memoriaMassa.e == 'e' && memoriaMassa.m2 == 'm' && memoriaMassa.o == 'o' && memoriaMassa.r == 'r' && memoriaMassa.i == 'i' && memoriaMassa.a == 'a' && memoriaMassa.d == 'd' && memoriaMassa.e2 == 'e' && memoriaMassa.m3 == 'm' && memoriaMassa.a == 'a' && memoriaMassa.s == 's' && memoriaMassa.s2 == 's' && memoriaMassa.a2 == 'a' && registradores.r == 'r' && registradores.e == 'e' && registradores.g == 'g' && registradores.i == 'i' && registradores.s == 's' && registradores.t == 't' && registradores.r2 == 'r' && registradores.a == 'a' && registradores.d == 'd' && registradores.o == 'o' && registradores.r3 == 'r' && registradores.e2 == 'e' && registradores.s2 == 's' && rom.r == 'r' && rom.o == 'o' && rom.m == 'm' && quadcore.q == 'q' && quadcore.u == 'u' && quadcore.a == 'a' && quadcore.d == 'd' && quadcore.c == 'c' && quadcore.o == 'o' && quadcore.r == 'r' && quadcore.e == 'e' && databus.d == 'd' && databus.a == 'a' && databus.t == 't' && databus.a2 == 'a' && databus.b == 'b' && databus.u == 'u' && databus.s == 's' && eprom.e == 'e' && eprom.p == 'p' && eprom.r == 'r' && eprom.o == 'o' && eprom.m == 'm' && ram.r == 'r' && ram.a == 'a' && ram.m == 'm' && ula.u == 'u' && ula.l == 'l' && ula.a == 'a' && cpu.c == 'c' && cpu.p == 'p' && cpu.u == 'u' && cs.c == 'c' && cs.s == 's' && addressbus.a == 'a' && addressbus.d == 'd' && addressbus.d2 == 'd' && addressbus.r == 'r' && addressbus.e == 'e' && addressbus.s == 's' && addressbus.s2 == 's' && addressbus.b == 'b' && addressbus.u == 'u' && addressbus.s2 == 's' && dualcore.d == 'd' && dualcore.u == 'u' && dualcore.a == 'a' && dualcore.l == 'l' && dualcore.c == 'c' && dualcore.o == 'o' && dualcore.r == 'r' && dualcore.e == 'e' && cache.c == 'c' && cache.a == 'a' && cache.c2 == 'c' && cache.h == 'h' && cache.e == 'e') {
-        alert(`PARABÉNS!!! VOCÊ CONSEGUIU COMPLETAR NOSSA PALAVRA CRUZADA!!!`);
+        alert(`PARABÉNS!!! VOCÊ CONSEGUIU COMPLETAR NOSSA PALAVRA CRUZADA!!!`)
+        flash_msg.style = "color: rgb(41, 148, 8)"
+        threads_msg.style = "color: rgb(41, 148, 8)"
+        dma_msg.style = "color: rgb(41, 148, 8)"
+        memoriaMassa_msg.style = "color: rgb(41, 148, 8)"
+        registradores_msg.style = "color: rgb(41, 148, 8)"
+        rom_msg.style = "color: rgb(41, 148, 8)"
+        quadCore_msg.style = "color: rgb(41, 148, 8)"
+        dataBus_msg.style = "color: rgb(41, 148, 8)"
+        eprom_msg.style = "color: rgb(41, 148, 8)"
+        ram_msg.style = "color: rgb(41, 148, 8)"
+        ula_msg.style = "color: rgb(41, 148, 8)"
+        cpu_msg.style = "color: rgb(41, 148, 8)"
+        cs_msg.style = "color: rgb(41, 148, 8)"
+        addressBus_msg.style = "color: rgb(41, 148, 8)"
+        dualCore_msg.style = "color: rgb(41, 148, 8)"
+        cache_msg.style = "color: rgb(41, 148, 8)"
 
     } else {
 
         if (flash.f == 'f' && flash.l == 'l' && flash.a == 'a' && flash.s == 's' && flash.h == 'h') {
-            alert(`1-Flash OK!`)
+            // alert(`1-Flash OK!`)
+            flash_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            flash_msg.style = "color: red"
         }
 
         if (threads.t == 't' && threads.h == 'h' && threads.r == 'r' && threads.e == 'e' && threads.a == 'a' && threads.d == 'd' && threads.s == 's') {
-            alert('2-Threads OK!')
+            // alert('2-Threads OK!')
+            threads_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            threads_msg.style = "color: red"
         }
 
         if (dma.d == 'd' && dma.m == 'm' && dma.a == 'a') {
-            alert('3-Dma OK!')
+            // alert('3-Dma OK!')
+            dma_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            dma_msg.style = "color: red"
         }
 
         if (memoriaMassa.m == 'm' && memoriaMassa.e == 'e' && memoriaMassa.m2 == 'm' && memoriaMassa.o == 'o' && memoriaMassa.r == 'r' && memoriaMassa.i == 'i' && memoriaMassa.a == 'a' && memoriaMassa.d == 'd' && memoriaMassa.e2 == 'e' && memoriaMassa.m3 == 'm' && memoriaMassa.a == 'a' && memoriaMassa.s == 's' && memoriaMassa.s2 == 's' && memoriaMassa.a2 == 'a') {
-            alert('4-Memoria de Massa OK!')
+            // alert('4-Memoria de Massa OK!')
+            memoriaMassa_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            memoriaMassa_msg.style = "color: red"
         }
 
         if (registradores.r == 'r' && registradores.e == 'e' && registradores.g == 'g' && registradores.i == 'i' && registradores.s == 's' && registradores.t == 't' && registradores.r2 == 'r' && registradores.a == 'a' && registradores.d == 'd' && registradores.o == 'o' && registradores.r3 == 'r' && registradores.e2 == 'e' && registradores.s2 == 's') {
-            alert('5-Registradores OK!')
+            // alert('5-Registradores OK!')
+            registradores_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            registradores_msg.style = "color: red"
         }
 
         if (rom.r == 'r' && rom.o == 'o' && rom.m == 'm') {
-            alert('6-ROM OK!')
+            // alert('6-ROM OK!')
+            rom_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            rom_msg.style = "color: red"
         }
 
         if (quadcore.q == 'q' && quadcore.u == 'u' && quadcore.a == 'a' && quadcore.d == 'd' && quadcore.c == 'c' && quadcore.o == 'o' && quadcore.r == 'r' && quadcore.e == 'e') {
-            alert('7-QuadCore OK!')
+            // alert('7-QuadCore OK!')
+            quadCore_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            quadCore_msg.style = "color: red"
         }
 
         if (databus.d == 'd' && databus.a == 'a' && databus.t == 't' && databus.a2 == 'a' && databus.b == 'b' && databus.u == 'u' && databus.s == 's') {
-            alert('8-DataBus OK!')
+            // alert('8-DataBus OK!')
+            dataBus_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            dataBus_msg.style = "color: red"
         }
 
         if (eprom.e == 'e' && eprom.p == 'p' && eprom.r == 'r' && eprom.o == 'o' && eprom.m == 'm') {
-            alert('9-EPROM OK!')
+            // alert('9-EPROM OK!')
+            eprom_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            eprom_msg.style = "color: red"
         }
 
         if (ram.r == 'r' && ram.a == 'a' && ram.m == 'm') {
-            alert('10-RAM OK!')
+            // alert('10-RAM OK!')
+            ram_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            ram_msg.style = "color: red"
         }
 
         if (ula.u == 'u' && ula.l == 'l' && ula.a == 'a') {
-            alert('11-ULA OK!');
+            // alert('11-ULA OK!')
+            ula_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            ula_msg.style = "color: red"
         }
 
         if (cpu.c == 'c' && cpu.p == 'p' && cpu.u == 'u') {
-            alert('12-CPU OK!')
+            // alert('12-CPU OK!')
+            cpu_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            cpu_msg.style = "color: red"
         }
 
         if (cs.c == 'c' && cs.s == 's') {
-            alert('13-CS OK!')
+            // alert('13-CS OK!')
+            cs_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            cs_msg.style = "color: red"
         }
 
         if (addressbus.a == 'a' && addressbus.d == 'd' && addressbus.d2 == 'd' && addressbus.r == 'r' && addressbus.e == 'e' && addressbus.s == 's' && addressbus.s2 == 's' && addressbus.b == 'b' && addressbus.u == 'u' && addressbus.s2 == 's') {
-            alert('14-AdressBus OK!')
+            // alert('14-AdressBus OK!')
+            addressBus_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            addressBus_msg.style = "color: red"
         }
 
         if (dualcore.d == 'd' && dualcore.u == 'u' && dualcore.a == 'a' && dualcore.l == 'l' && dualcore.c == 'c' && dualcore.o == 'o' && dualcore.r == 'r' && dualcore.e == 'e') {
-            alert('15-DualCore OK!')
+            // alert('15-DualCore OK!')
+            dualCore_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            dualCore_msg.style = "color: red"
         }
 
         if (cache.c == 'c' && cache.a == 'a' && cache.c2 == 'c' && cache.h == 'h' && cache.e == 'e') {
-            alert('16-Cache OK!')
+            // alert('16-Cache OK!')
+            cache_msg.style = "color: rgb(41, 148, 8)"
+
+        } else {
+            cache_msg.style = "color: red"
         }
     }    
     
